@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-    title: "Scrollytelling Portfolio",
-    description: "A high-end creative developer portfolio.",
+    title: "Niyas | Code that works (mostly)",
+    description: "I turn coffee into bugs... and then fix them. Sometimes. | Full Stack Developer",
 };
 
 import CustomCursor from "@/components/ui/CustomCursor";

@@ -9,7 +9,7 @@ export default function Overlay() {
     const items = [
         {
             title: "Niyas T K",
-            subtitle: "Software Engineer",
+            subtitle: "Professional Googler",
             align: "center",
             start: 0,
             end: 0.25
