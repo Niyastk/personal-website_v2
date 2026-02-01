@@ -21,7 +21,7 @@ export default function ScrollyCanvas({ children }: { children?: React.ReactNode
                 return new Promise<void>((resolve, reject) => {
                     const img = new Image();
                     const frameIndex = String(i).padStart(3, "0");
-                    img.src = `/sequence/frame_${frameIndex}.png`;
+                    img.src = `/sequence/frame_${frameIndex}.webp`;
                     img.onload = () => {
                         loadedImages[i] = img;
                         resolve();
